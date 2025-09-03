@@ -2,15 +2,11 @@
 
 # ts=`date +%Y-%m-%d`
 
-ts=`date +%Y-%m-%d`
+# set log variable to add date values to log files
 
-log='names_'$ts'.log'
 
-printf 'What is your name?\n'
 #Take input from user
-read name
 
-printf 'Hello %s\n' $name >> $log
-echo 'Today is '$ts >> $log
+# Greet user and add user value to log
 
-exit 0
+# Show today's date and add to log
