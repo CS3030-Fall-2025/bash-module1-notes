@@ -1,6 +1,0 @@
-
-# Ignore case
-set completion-ignore-case on 
-
-# No audible bell
-set bell-style visible
